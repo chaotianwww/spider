@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sergeytsalkov/meekrodb": "^2.3",
+        "predis/predis": "^1.1"
+    }
+}
