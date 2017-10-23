@@ -1,70 +1,11 @@
-
-
-
-
-
-update open set biz="MjM5MjE1MzkyMA==" where alias = "zhaopincdc";
-update open set biz="MzI1MzQyNTY2NQ==" where alias = "wbbm001";
-
-update open set biz="MzI0ODgzMDA5Nw==" where alias = "zuidongxi";
-update open set biz="MzI5NDY0MTMyNw==" where alias = "aishoushanghuo";
-update open set biz="MzIzODUxNzg0Mg==" where alias = "womenyoufan";
-
-update open set biz="MzAwNzUxMDE4OQ==" where alias = "lsjf01";
-update open set biz="MzI0NzQ3OTUxOQ==" where alias = "xingfuway99";
-
-update open set biz="MzI2OTIwODc1Nw==" where alias = "tree-share";
-update open set biz="MzAwNjIzMTU4NA==" where alias = "taohuama2015";
-
-
-update open set biz="MzIxOTU5NjY5MQ==" where alias = "ksdyvip";
-update open set biz="MzUxMjA2MTI1MA==" where alias = "findshops";
-
-update open set biz="MzI2NjMxMTg1MQ==" where alias = "day1238";
-update open set biz="MzI1NTM5NjIwNg==" where alias = "dianbing81";
-update open set biz="MzI2MzEzNTI1NQ==" where alias = "dushekeji";
-
-
-update open set biz="MzA4MDY2NTUxMA==" where alias = "qzzsgzpt";
-
-update open set biz="MzIzODYyMDgzOA==" where alias = "jhmql2017";
-
-
-update open set biz="MzI1Mjc4OTg2MA==" where alias = "quanchengshier";
-update open set biz="MzU2NTAxNzI0NQ==" where alias = "paoxue2017";
-
-update open set biz="MzI4MzYyMzAwNg==" where alias = "wmeilive";
-update open set biz="MzU5ODIxODU3OA==" where alias = "lnsj17681768";
-
-
-update open set biz="MjM5OTk5NzIxNw==" where alias = "hxrs0811";
-
-
-
-update open set biz="MzI2MTcxNjg3Mg==" where alias = "EasyEnglish_";
-update open set biz="MzA3OTE3NjcwMA==" where alias = "shenzhenlvyouxiehui";
-
-update open set biz="MjM5ODM3NTY1Ng==" where alias = "FM9873";
-update open set biz="MzI2NzIyMjc3Mw==" where alias = "chenmosy";
-update open set biz="MzA5ODQwMDg0Nw==" where alias = "hgjjyglxy";
-update open set biz="MzI5MTAzNzU0OQ==" where alias = "hupan32";
-
-
-update open set biz="MzAxOTM4MTI0OQ==" where alias = "yiyaoshenghuoquan";
-update open set biz="MzUzMjEwMzI2MQ==" where alias = "jujushangying";
-update open set biz="MzU4ODA5MDUzNQ==" where alias = "remenchaoliufan";
-
-update open set biz="MjM5ODY0MTk4MQ==" where alias = "lingjimiaosuan";
-
-update open set biz="MzI1OTY3NDg4Mg==" where alias = "hotdogtrip";
-
-
-update open set biz="MzI2NDU0MjI5Ng==" where alias = "qdenjoyreading";
-update open set biz="MzI0MjUyMzk5NA==" where alias = "antourong";
-
-
-
-update open set biz="MzAwNDE3NjAxMA==" where alias = "fumuketang";
-
-
-
+Host: api.hxw.gov.cn,
+Content-Type: application/json,
+Origin: http://weixin.hxw.gov.cn,
+Accept-Encoding: gzip, deflate,
+Connection: keep-alive,
+Connection: keep-alive,
+Accept: application/json, text/javascript, */*; q=0.01,
+User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A421 MicroMessenger/6.5.18 NetType/WIFI Language/zh_CN,
+Referer: http://weixin.hxw.gov.cn/redStar/pages/fingerPartySchool/dayReading/readingDetailB.html?contentId=1265340&canshare=1,
+Content-Length: 108,
+Accept-Language: zh-cn
