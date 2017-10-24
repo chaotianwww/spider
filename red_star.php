@@ -10,7 +10,8 @@
 include_once "curl.php";
 
 $url = "http://api.hxw.gov.cn/redstar-http/api/integral/addMemberIntegral";
-$member_id = '637374';
+$member_id = '637374'; //me
+//$member_id = '1349199'; //耀  {"id":74841,"userName":null,"realName":"杨耀","idNumber":null,"phoneNum":"136****7190","orgCode":"43000189704","sex":"1","education":null,"status":"1","password":null,"lastUpdateTime":null,"isActivate":null,"isAdmin":"0","isSecretary":"0","userImg":"http://wx.qlogo.cn/mmopen/IlCeibINrgYlpwRVic0qySm6biaiaIJ2zq1ONmUOkzarYZFUy6XO7DTeiaRhDVYzA6K6T0AMuT0NXvxVMaqRcdZWicLoCiaPjQFluVq/132","userId":1349199,"organization":{"id":17674,"orgCode":"43000189704","parentOrgCode":"43000140388","orgName":"中共鼎城区尧天坪镇花园岗村第一支部委员会","orgCategory":null,"orgSecretary":"王建文","orgLevel":null,"orgType":null,"status":"1","duesSecrecy":null}}
 $types = [
     'mryd' => [
         'header' => [
@@ -72,9 +73,9 @@ function run()
         }else if($content == "failure"){
             $type['is_failed'] = true;
         }
-        $type['id'] -= rand(1,3);
+        $type['id'] -= rand(2,5);
         echo $type_name.'---'.$data['resourceId'].'---'.$type['num'].'----'.$type['success_num'].'---'.$content.'<br/>';
-        sleep(rand(2,3));
+        sleep(rand(2,4));
         run();
 
     }
