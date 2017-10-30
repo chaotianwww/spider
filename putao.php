@@ -28,12 +28,34 @@ function run()
     print_r($content);
     echo "</pre>";
 }
+function run_v2()
+{
+    include_once "curl.php";
+
+    $url = 'http://h5.putao.com/wheretolearn/result.html?dskid=ccc001&t=1508983398404';
+    $header = [
+        "Host: h5.putao.com",
+        "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36 MicroMessenger/6.5.2.501 NetType/WIFI WindowsWechat QBCore/3.43.691.400 QQBrowser/9.0.2524.400",
+        "Referer: http://h5.putao.com/wheretolearn/main.html?dskid=ccc001&t=1508983207303",
+        "Cookie: LBN=h5-45beab11051463716807; DS_FROM_TYPE=0; DS_C_ID=ccc001"
+    ];
+
+
+    $content = curl::curl_request($url, [], $header);
+    //echo $content;
+    //$content = json_decode($content);
+    echo "<pre>";
+    print_r($content);
+    echo "</pre>";
+}
+run_v2();
+exit;
 
 // If you installed via composer, just use this code to requrie autoloader on the top of your projects.
 require 'vendor/autoload.php';
 
 // Using Medoo namespace
-use DB;
 
 $examArr = [
     'hk1'=>'{"http_status_code":200,"data":{"id":184,"name":"上海外国语大学附属民办外国语小学","description":"上海外国语大学附属民办外国语小学","time_length":1,"test_id":2858,"ids":["230","242","678","1145","1211","1526","1527","1528","1531","1533","1534","1538"],"lists":[{"id":"230","title":"单词","question":"找出下面不同类的英语单词","type":"1","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"","answer_list":[{"option":"A","content":"car"},{"option":"B","content":"bike"},{"option":"C","content":"bus"},{"option":"D","content":"elephant"}],"right_answer":["D"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"242","title":"单词","question":"选出下面表示数字的单词","type":"2","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"","answer_list":[{"option":"A","content":"four"},{"option":"B","content":"five"},{"option":"C","content":"flower"},{"option":"D","content":"floor"}],"right_answer":["A","B"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"678","title":"阅读","question":"选出正确的图片：a yellow coat","type":"1","option_type":"2","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"","answer_list":[{"option":"A","content":"http:\/\/pico.file.putaocdn.com\/file\/\/df87981c704991468390ddc67b9b481b5f512406.jpg"},{"option":"B","content":"http:\/\/pico.file.putaocdn.com\/file\/\/0fba1902f6723a4dacc5b68298a45ec2244fcde8.jpg"},{"option":"C","content":"http:\/\/pico.file.putaocdn.com\/file\/\/3b304e13548f1da25acf150213be07e5f88be71d.jpg"}],"right_answer":["B"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1145","title":"模拟2-5","question":"河边有7只小鸭子和1只鸭妈妈要过河，其中4只小鸭子过了河，还剩几只小鸭子？","type":"1","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"","answer_list":[{"option":"A","content":"1只"},{"option":"B","content":"3只"},{"option":"C","content":"4只"},{"option":"D","content":"7只"}],"right_answer":["B"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1211","title":"4","question":"小红今年6岁，妈妈30岁，两年以后，妈妈几岁？小红几岁？","type":"1","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的应用题。\r\n难点：年龄问题的应用题。\r\n教学方法：\r\n①认识年龄，知道年龄是怎么算的。\r\n②逢年过节告知小朋友自己的年龄变化，增强记忆。\r\n③程度好的小朋友可以尝试告知两个人的年龄差是不会随着岁月而发生变化的，可以举例说明。","answer_list":[{"option":"A","content":"妈妈30，小红6岁"},{"option":"B","content":"妈妈24，小红8岁"},{"option":"C","content":"妈妈32，小红6岁"},{"option":"D","content":"妈妈32，小红8岁"}],"right_answer":["D"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1526","title":"1","question":"小蝌蚪长大会变成什么？","type":"1","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的生活常识。\r\n难点：小动物的变化特点。\r\n教学方法：\r\n①可以通过绘本故事“小蝌蚪找妈妈”引导小朋友仔细观察小蝌蚪的变化过程。\r\n②引导学习其他特殊的动物，比如毛毛虫、蚕等此类。","answer_list":[{"option":"A","content":"蝴蝶"},{"option":"B","content":"毛毛虫"},{"option":"C","content":"蜻蜓"},{"option":"D","content":"青蛙"}],"right_answer":["D"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1527","title":"2","question":"下面哪个是白菜？","type":"1","option_type":"2","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的生活常识。\r\n难点：蔬菜的认识和特点的感知。\r\n教学方法：\r\n①图文结合认识白菜是什么样子的。\r\n②生活中有机会可以直接接触白菜，通过观察和触摸感知白菜。\r\n③适时的接触一些白菜的烹煮过程，了解白菜的烹煮过程以及形态变化。","answer_list":[{"option":"A","content":"\/\/pico-file.putaocdn.com\/file\/92bedb580601ade5a67b74d0fd55e5c15afc4b79.jpg"},{"option":"B","content":"\/\/pico-file.putaocdn.com\/file\/318467da7ebc7aabc09bc6a79f5ab61ee07985ab.jpg"},{"option":"C","content":"\/\/pico-file.putaocdn.com\/file\/7eac744081b0a451535109cc4134a358de8e039d.jpg"},{"option":"D","content":"\/\/pico-file.putaocdn.com\/file\/5c127edbd92d2a5a5d705313a7a2c31d286a8908.jpg"}],"right_answer":["C"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1528","title":"3","question":"月饼是什么节日吃的食物？","type":"1","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的生活常识。\r\n难点：各个节日对应的食物。\r\n教学方法：\r\n①节日的认知。\r\n②结合节日，告知小朋友节日的由来（可借助绘本）\r\n③节日的特点。（吃什么、装饰什么灯，如可以让小朋友参与制作则效果更佳）\r\n④不定期的提问，并对比各节日之间的区别。","answer_list":[{"option":"A","content":"元宵节"},{"option":"B","content":"中秋节"},{"option":"C","content":"国庆节"},{"option":"D","content":"重阳节"}],"right_answer":["B"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1531","title":"6","question":"下面图片是哪个故事？","type":"1","option_type":"1","question_img":"\/\/pico-file.putaocdn.com\/file\/9be80f8172c640e580481c545d70f371ac6cfa1d.jpg","resource":["\/\/pico-file.putaocdn.com\/file\/9be80f8172c640e580481c545d70f371ac6cfa1d.jpg"],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的成语的积累和想象力。\r\n难点：成语的积累。\r\n教学方法：\r\n①通过绘本阅读，图文结合的帮助小朋友积累一定的成语。\r\n②适时的可以让小朋友自己讲一些成语故事。","answer_list":[{"option":"A","content":"盲人摸象"},{"option":"B","content":"曹冲称象"},{"option":"C","content":"渡河香象"},{"option":"D","content":" 气象一新"}],"right_answer":["B"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1533","title":"7","question":"下面图片是哪个故事？","type":"1","option_type":"1","question_img":"\/\/pico-file.putaocdn.com\/file\/50ab4f6be260547ac5de73e50df5eced22b9b9eb.jpg","resource":["\/\/pico-file.putaocdn.com\/file\/50ab4f6be260547ac5de73e50df5eced22b9b9eb.jpg"],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的成语的积累和想象力。\r\n难点：成语的积累。\r\n教学方法：\r\n①通过绘本阅读，图文结合的帮助小朋友积累一定的成语。\r\n②适时的可以让小朋友自己讲一些成语故事。","answer_list":[{"option":"A","content":"曹冲称象"},{"option":"B","content":" 黄金铸象"},{"option":"C","content":"瞎子摸象"},{"option":"D","content":"气象万千"}],"right_answer":["C"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1534","title":"8","question":"下面图片是哪个故事？","type":"1","option_type":"1","question_img":"\/\/pico-file.putaocdn.com\/file\/b4b797d85a2ea978e7906f92ec66d6b803aa1d8d.jpg","resource":["\/\/pico-file.putaocdn.com\/file\/b4b797d85a2ea978e7906f92ec66d6b803aa1d8d.jpg"],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的成语的积累和想象力。\r\n难点：成语的积累。\r\n教学方法：\r\n①通过绘本阅读，图文结合的帮助小朋友积累一定的成语。\r\n②适时的可以让小朋友自己讲一些成语故事。","answer_list":[{"option":"A","content":"狐假虎威"},{"option":"B","content":"马马虎虎"},{"option":"C","content":"虎头蛇尾"},{"option":"D","content":"龙腾虎跃"}],"right_answer":["C"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""},{"id":"1538","title":"11","question":"下面是4个地方的温度，请选出温度最高的选项。","type":"1","option_type":"1","question_img":"","resource":[],"topic_type":"1","example":"","analysis":"提示：本题考查的是小朋友的生活常识。\r\n难点：温度的认识。\r\n教学方法：\r\n①图文结合认识温度计。\r\n②引导认识温度计是什么。包括样子、作用等\r\n③通过夸张的图文告知小朋友温度高时，温度低时的样子。\r\n④引导认识零下的概念，比0度还要低。\r\n⑤认真观察题目，解决问题。","answer_list":[{"option":"A","content":"零下3度"},{"option":"B","content":"零上5度"},{"option":"C","content":"零上2度"},{"option":"D","content":"零下10度"}],"right_answer":["B"],"level":"1","is_true":"0","user_answer":"","has_knowledge":""}]},"msg":"成功"}',
@@ -68,9 +90,12 @@ $areaList = [
 
 foreach($examArr as $area => $exam){
     $tmpExam = json_decode($exam,true);
+    echo "<pre>";
+    print_r($tmpExam);
+    echo "</pre>";
 
 
-    $id = DB::table('school')->insertGetId([
+    /*$id = DB::table('school')->insertGetId([
         'name' => $tmpExam['data']['name'],
         'description' => $tmpExam['data']['description'],
         'area'  =>  $areaList[substr($area,0,2)]
@@ -84,7 +109,7 @@ foreach($examArr as $area => $exam){
             'answer_list' => json_encode($val['answer_list']),
             'right_answer' => json_encode($val['right_answer']),
         ]);
-    }
+    }*/
 
 
 }
