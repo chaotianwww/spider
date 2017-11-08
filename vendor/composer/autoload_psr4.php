@@ -6,6 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'voku\\db\\' => array($vendorDir . '/voku/simple-mysqli/src/voku/db'),
+    'voku\\cache\\' => array($vendorDir . '/voku/simple-cache/src/voku/cache'),
+    'voku\\' => array($vendorDir . '/voku/portable-utf8/src/voku', $vendorDir . '/voku/stop-words/src/voku', $vendorDir . '/voku/phonetic-algorithms/src/voku'),
+    'Symfony\\Polyfill\\' => array($vendorDir . '/symfony/polyfill/src'),
+    'Symfony\\Component\\PropertyAccess\\' => array($vendorDir . '/symfony/property-access'),
+    'Symfony\\Component\\Intl\\' => array($vendorDir . '/symfony/intl'),
+    'Symfony\\Component\\Inflector\\' => array($vendorDir . '/symfony/inflector'),
+    'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Predis\\' => array($vendorDir . '/predis/predis/src'),
     'Medoo\\' => array($vendorDir . '/catfan/medoo/src'),
+    'Arrayy\\' => array($vendorDir . '/voku/arrayy/src'),
 );

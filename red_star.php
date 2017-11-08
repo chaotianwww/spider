@@ -24,7 +24,7 @@ $types = [
                     "Referer: http://weixin.hxw.gov.cn/redStar/pages/fingerPartySchool/dayReading/readingDetailB.html?contentId=%s&canshare=1"
         ],
         'data' => '{"memberId":'.$member_id.',"orgCode":"43000134272","resourceId":"1359832","configName":"mryd","resourceType":"mryd"}',
-        'id'   => 1367554,
+        'id'   => 1397376,
         'num'  => 25,
         'success_num' => 0,
         'is_failed' => false
@@ -37,7 +37,7 @@ $types = [
                         "Referer: http://weixin.hxw.gov.cn/redStar/pages/fingerPartySchool/listen/listenDetail.html?contentId=%s&canshare=1"
                     ],
         'data' => '{"memberId":'.$member_id.',"orgCode":"43000134272","resourceId":"1360230","configName":"hxyt","resourceType":"hxyt"}',
-        'id'   => 1366887,
+        'id'   => 1397170,
         'num'  => 12,
         'success_num' => 0,
         'is_failed' => false

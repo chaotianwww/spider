@@ -3,6 +3,7 @@
         "sergeytsalkov/meekrodb": "^2.3",
         "predis/predis": "^1.1",
         "electrolinux/phpquery": "^0.9.6",
-        "catfan/medoo": "^1.4"
+        "catfan/medoo": "^1.4",
+        "voku/simple-mysqli": "^5.4"
     }
 }
