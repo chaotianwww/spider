@@ -104,6 +104,16 @@ class ComposerStaticInit24a42c68648730cd5a137f6ae8334e90
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Sunra\\PhpSimple\\HtmlDomParser' => 
+            array (
+                0 => __DIR__ . '/..' . '/sunra/php-simple-html-dom-parser/Src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill/src/Php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill/src/Php70/Resources/stubs/AssertionError.php',
@@ -153,6 +163,7 @@ class ComposerStaticInit24a42c68648730cd5a137f6ae8334e90
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit24a42c68648730cd5a137f6ae8334e90::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit24a42c68648730cd5a137f6ae8334e90::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit24a42c68648730cd5a137f6ae8334e90::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit24a42c68648730cd5a137f6ae8334e90::$classMap;
 
         }, null, ClassLoader::class);

@@ -4,6 +4,7 @@
         "predis/predis": "^1.1",
         "electrolinux/phpquery": "^0.9.6",
         "catfan/medoo": "^1.4",
-        "voku/simple-mysqli": "^5.4"
+        "voku/simple-mysqli": "^5.4",
+        "sunra/php-simple-html-dom-parser": "^1.5"
     }
 }

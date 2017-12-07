@@ -21,6 +21,10 @@ $page1 = '{"meta":{"code":200,"message":"OK"},"data":[{"book_id":"1471","book_na
 
 $content1 = '{"meta":{"code":200,"message":"OK"},"data":{"book_id":"1471","book_idstr":"52190","book_name":"两个好伙伴","cover_image_name":"53c5f94d3deaf720ff69d27518aedd083e21c082.jpg","fit_age_begin":"3","fit_age_end":"6","book_excerpt":"嘟嘟喜欢旅行，巴豆更愿意待在家，他们爱好不同却是最好的朋友","book_author":"","series_id":"0","sound_name":"970cbd5d3237af4444e5a7fdc95ca4dfbd459d9a.mp3","width":"2048","height":"1536","play_count":"2060","valid":"1","book_link":"http://item.m.jd.com/product/11892369.html","pagelist":[{"page_id":"30508","sound_begin":"0:00.851","sound_end":"0:04.459","image_name":"5627c3d8777b06a3b49610aed73b5089c81c7f50.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/5627c3d8777b06a3b49610aed73b5089c81c7f50.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:3OgKpItSmOCBUOlLP2zw1wn-Z4w="},{"page_id":"30509","sound_begin":"0:06.454","sound_end":"0:12.541","image_name":"e0a7b659a09d79fe5f3c68e828bac62db1501a66.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/e0a7b659a09d79fe5f3c68e828bac62db1501a66.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:nxFqoMa-mkcYXo3ilDLbFzsdG9E="},{"page_id":"30510","sound_begin":"0:13.717","sound_end":"0:26.667","image_name":"70d1a26ef2b5524a1905c68f10a0ae2ae0b04c17.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/70d1a26ef2b5524a1905c68f10a0ae2ae0b04c17.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:kSkV6xP79LOf476JsBSmuLolpiI="},{"page_id":"30511","sound_begin":"0:28.831","sound_end":"0:48.580","image_name":"c2aad1747c209ed68ced47c8cb81258cc8b53047.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/c2aad1747c209ed68ced47c8cb81258cc8b53047.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:c8EdFTffwyj8Rm9sZqAoOs8RWtM="},{"page_id":"30512","sound_begin":"0:49.731","sound_end":"0:52.899","image_name":"e6846f9d4bd6869eab53600d61415d6773c1e899.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/e6846f9d4bd6869eab53600d61415d6773c1e899.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:av8p9d16HlD8giawUk0VG1yru5M="},{"page_id":"30513","sound_begin":"0:54.003","sound_end":"0:57.070","image_name":"c551423cb594108c49ae336a2d98cc6da63b55f2.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/c551423cb594108c49ae336a2d98cc6da63b55f2.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:5w-c1OL8FhVXd47pe59pni5_zQo="},{"page_id":"30514","sound_begin":"0:58.248","sound_end":"1:13.114","image_name":"b2fd437974167aa41076b0fbcc21aba80e1131c8.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/b2fd437974167aa41076b0fbcc21aba80e1131c8.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:tkSweWQNVGeaFdjbVLgXvD2rerc="},{"page_id":"30515","sound_begin":"1:14.601","sound_end":"1:19.823","image_name":"acf9a61d5ba9552b708e9139fe1a13fcbb84971c.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/acf9a61d5ba9552b708e9139fe1a13fcbb84971c.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:16TyFzrI8cxFymu9xurikQouKQc="},{"page_id":"30516","sound_begin":"1:20.574","sound_end":"1:37.998","image_name":"2a8fabeaf9f6bdb104fb363ba439f59f77f7d024.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/2a8fabeaf9f6bdb104fb363ba439f59f77f7d024.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:iNepu2gjADm7D8PnM-UvTOA0lE4="},{"page_id":"30517","sound_begin":"1:38.770","sound_end":"1:47.723","image_name":"795150acee059eabf5966bb5d5eb7c4cdb930aef.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/795150acee059eabf5966bb5d5eb7c4cdb930aef.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:P6EmHRgTOVlNuxoz-K5Av63C9bo="},{"page_id":"30518","sound_begin":"1:48.731","sound_end":"2:09.804","image_name":"a00bc6e2b9be5920b45896105785dc458120c8c3.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/a00bc6e2b9be5920b45896105785dc458120c8c3.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:Du4o7rY4jMTn9nRiWG-s5wk6OIE="},{"page_id":"30519","sound_begin":"2:11.085","sound_end":"2:18.759","image_name":"1a647b90cefe3eb09a207105576b883888177047.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/1a647b90cefe3eb09a207105576b883888177047.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:htZB5JrkEir-__7LMEyxOxZ4q3U="},{"page_id":"30520","sound_begin":"2:19.354","sound_end":"2:38.585","image_name":"304f2686b67f34921408982146a6a96665ba6fda.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/304f2686b67f34921408982146a6a96665ba6fda.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:fN6E7AbvKHkd8PEwaeKt_AP5lEI="},{"page_id":"30521","sound_begin":"2:39.367","sound_end":"2:51.929","image_name":"b4b1d90ec73efb0a42340e3a745cddbdc4c613fb.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/b4b1d90ec73efb0a42340e3a745cddbdc4c613fb.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:aIan0XdS7T91A_LcoroniF_gCt0="},{"page_id":"30522","sound_begin":"2:52.170","sound_end":"3:12.438","image_name":"ad0521e8a8522e5fe08b8d4c3bf78208cff71f38.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/ad0521e8a8522e5fe08b8d4c3bf78208cff71f38.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:1EklOoSbeuRCizH604j4nyayiNY="},{"page_id":"30523","sound_begin":"3:14.037","sound_end":"3:16.222","image_name":"188037f261fcfb310280dede4763a598d10da6ac.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/188037f261fcfb310280dede4763a598d10da6ac.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:hOi1D86cJe5xdcFYTqPKagJ1wfI="},{"page_id":"30524","sound_begin":"3:16.849","sound_end":"3:31.690","image_name":"b1dcdfd4775f8fe8f74f0e06b3ee86b6a7f0e82a.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/b1dcdfd4775f8fe8f74f0e06b3ee86b6a7f0e82a.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:n8aI-dsaBQu3DiymvaQQKwWFRkk="},{"page_id":"30525","sound_begin":"3:32.776","sound_end":"3:45.148","image_name":"6c8c5a9de38178d7d3d4c2a58964ab84c1e89a7b.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/6c8c5a9de38178d7d3d4c2a58964ab84c1e89a7b.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:xIAjZlrdZ9maK5nkaKIWXkvNJcQ="},{"page_id":"30526","sound_begin":"3:45.639","sound_end":"4:08.337","image_name":"b0ec03b491305fbfa0d6abecbfa37b0f46e57bbc.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/b0ec03b491305fbfa0d6abecbfa37b0f46e57bbc.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:4sJ-Qy9JVC8UBgngZVAeEgWvzjY="},{"page_id":"30527","sound_begin":"4:08.714","sound_end":"4:11.722","image_name":"4fad6c894129bf72dbb18a3c35b8d714c436e134.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/4fad6c894129bf72dbb18a3c35b8d714c436e134.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:9SBClm-hRDJyC0aQSMf49epDSVw="},{"page_id":"30528","sound_begin":"4:12.096","sound_end":"4:29.848","image_name":"404624591ba025904fbc735a63e0aa5f579de91a.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/404624591ba025904fbc735a63e0aa5f579de91a.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:fGr24IuiAIHL5ODPxIAssEpCofQ="},{"page_id":"30529","sound_begin":"4:31.054","sound_end":"4:34.495","image_name":"eb9aad7f876ec16aa2185f9b035a6c1f8eef3fc3.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/eb9aad7f876ec16aa2185f9b035a6c1f8eef3fc3.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:OuBxh918EaAFfAqrjKeDR1lrZHE="},{"page_id":"30530","sound_begin":"4:34.903","sound_end":"4:49.416","image_name":"ec99a2685a622ed781353881dbd2f9a6363a4250.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/ec99a2685a622ed781353881dbd2f9a6363a4250.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:AxoAlf1iyrYZz3aT94P-cNtGCKY="},{"page_id":"30531","sound_begin":"4:50.431","sound_end":"5:02.483","image_name":"aae89766de7807d3cb615d47c0c44d2ba29255ab.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/aae89766de7807d3cb615d47c0c44d2ba29255ab.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:fIwBnkl802E-F7YU51ipocIicbk="},{"page_id":"30532","sound_begin":"5:03.728","sound_end":"5:09.822","image_name":"c221a01dd1825a4fc06cf21fdd2ce2f1321dd3d6.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/c221a01dd1825a4fc06cf21fdd2ce2f1321dd3d6.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:HSXQoORiriWsBRCZgtEpYUI_HTU="},{"page_id":"30533","sound_begin":"5:10.354","sound_end":"5:12.710","image_name":"f8205b0e2674a5d74f80aaa598c89b404380d7af.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/f8205b0e2674a5d74f80aaa598c89b404380d7af.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:jJxv7fWiCKwT1f1k0bhKEPjEoGw="},{"page_id":"30534","sound_begin":"0","sound_end":"0","image_name":"c4c49556f528f87145246f4261cfb353190ca758.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/c4c49556f528f87145246f4261cfb353190ca758.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:Oebhnb9jIInXc2J6M2oiZPNms3w="},{"page_id":"30535","sound_begin":"5:14.275","sound_end":"5:36.887","image_name":"5722c18d33e6113bc82932d23fdb57bed000bcce.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/5722c18d33e6113bc82932d23fdb57bed000bcce.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:XFe9dWI6iV1IvxgDGXLbRKRWf_c="},{"page_id":"30536","sound_begin":"5:38.350","sound_end":"6:10.702","image_name":"7962bbe92efd42076d75561a076f9381bfb801f5.jpg","scripts":"","page_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/7962bbe92efd42076d75561a076f9381bfb801f5.jpg?imageView2/0/w/1024&e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:PMk7Hl3NE8U9NlWmYcJhJE2eYtc="}],"sound_url":"http://7xqd2h.dl1.z0.glb.clouddn.com/970cbd5d3237af4444e5a7fdc95ca4dfbd459d9a.mp3?e=1515131693&token=wWpTcGEIBwL3ajS-j5ZphxGweOEBKnbqtEygHXau:RUCb2LDxd3Wwt0aG8mRbkZzEOCg=","lflag":0,"cover_url":"http://ohg6gf3hu.bkt.clouddn.com/52190_cover.jpg?imageView2/0/w/400"}}';
 
+/*echo '<pre>';
+print_r(json_decode($content1,true));
+echo '</pre>';exit;*/
+
 $url1 = 'http://cdng.yhb360.com/bb_video30/Home/series/index/age/0/app_sub_id/1/series_id/190/app_id/22/version/4?sign=484dbda8344c59db6be02d4d960a1d23&t=5A000F78';
 $index_content1 = '{"meta":{"code":200,"message":"OK"},"data":{"series_id":"190","series_name":"学习加法","series_name_long":"数学：学习加法","series_episode_count":"0","series_play_count":"117189","series_excerpt":"","series_picurl":"http://r2.ykimg.com/0541040856499DEA6A0A4E5F3565B479","series_year":"","series_avaliable":"1","videos":[{"video_id":"612","video_name":" 1的加法","video_length":"389867","video_size":"14730390","video_vip_flag":"0","video_play_count":"51980","video_excerpt":"","video_picurl":"http://r1.ykimg.com/054104085649A1E96A0A4B3342061914","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"0300200100564998A5191A05017057BE0FB0B4-75A9-3E9A-D8D1-8B62E2111745","video_youku_vid":"346981780","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"613","video_name":" 2的加法","video_length":"389867","video_size":"14728920","video_vip_flag":"0","video_play_count":"12894","video_excerpt":"","video_picurl":"http://r2.ykimg.com/054104085649A2E36A0A400488C8C376","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499B051F2405017057B5B38C96-CE0C-7895-7459-21939EFF9FEC","video_youku_vid":"346982339","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"614","video_name":" 3的加法","video_length":"389867","video_size":"14724540","video_vip_flag":"1","video_play_count":"11634","video_excerpt":"","video_picurl":"http://r3.ykimg.com/0541040856499E456A0A4D04743600CE","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499B0D6458050170572DBA7C34-184B-9B2C-A6D0-4540132AD506","video_youku_vid":"346982974","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"2384","video_name":" 8的加法","video_length":"389867","video_size":"14724449","video_vip_flag":"1","video_play_count":"5387","video_excerpt":"","video_picurl":"http://r4.ykimg.com/054104085649AA016A0A424726035BEC","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499AFE68E10501705781F240AD-B17D-8013-3881-3A63AE7D5D9A","video_youku_vid":"346985771","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"2386","video_name":"10的加法","video_length":"389867","video_size":"14718041","video_vip_flag":"1","video_play_count":"4774","video_excerpt":"","video_picurl":"http://r3.ykimg.com/054104085649AAAC6A0A400484CF9ABC","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499B4B0BCE0501705789BEDF96-BAC3-1ACA-4558-5C2ABB0CBBEA","video_youku_vid":"346986944","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"615","video_name":"4的加法","video_length":"389867","video_size":"14716388","video_vip_flag":"1","video_play_count":"7311","video_excerpt":"","video_picurl":"http://r2.ykimg.com/0541040856499DEA6A0A4E5F3565B479","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499A26EEC2050170577F535B48-240C-62BB-61DC-CBF872108892","video_youku_vid":"346983547","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"616","video_name":"5的加法","video_length":"389867","video_size":"14720063","video_vip_flag":"1","video_play_count":"4844","video_excerpt":"","video_picurl":"http://r1.ykimg.com/054104085649A0986A0A4804E334B8B5","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499C5B33FF05017057B31758FF-4399-F41E-91DE-53487FFDAD4F","video_youku_vid":"346984079","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"2382","video_name":"6的加法","video_length":"389867","video_size":"14719782","video_vip_flag":"1","video_play_count":"3285","video_excerpt":"","video_picurl":"http://r2.ykimg.com/054104085649A4136A0A440AFCD3EEFE","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499BE2A58F05017057D8721CAA-4B9A-5C0E-6F70-BD6F0B53CF00","video_youku_vid":"346984637","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"2383","video_name":"7的加法","video_length":"389867","video_size":"14719561","video_vip_flag":"1","video_play_count":"2826","video_excerpt":"","video_picurl":"http://r4.ykimg.com/054104085649A4156A0A4924442BA51C","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499D8BF58E0501705797F2B1F0-E2D0-81AF-B4AC-31FA59AE4889","video_youku_vid":"346985177","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"2385","video_name":"9的加法","video_length":"389867","video_size":"14722028","video_vip_flag":"1","video_play_count":"4792","video_excerpt":"","video_picurl":"http://r3.ykimg.com/054104085649A04A6A0A41044B4A727F","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"030020010056499B41F188050170571B02E70D-0E6D-6124-5BB4-389EB86F5D81","video_youku_vid":"346986369","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null},{"video_id":"617","video_name":"两位数综合加法","video_length":"389867","video_size":"14723232","video_vip_flag":"1","video_play_count":"7462","video_excerpt":"","video_picurl":"http://r2.ykimg.com/054104085649A99B6A0A4A04573C69E6","video_series_id":"190","video_series_order":"0","video_mp4url":"","video_qiniu_cdn_id":"03002001005649A185794305017057C19D0558-14C4-6B28-CEB2-975880E14D2D","video_youku_vid":"346993106","video_age_begin":"0","video_age_end":"200","video_srt_en":null,"video_srt_cn":null}],"bg_pics":["http://7xr1xh.com2.z0.glb.qiniucdn.com/player_bg_1.png","http://7xr1xh.com2.z0.glb.qiniucdn.com/player_bg_2.png","http://7xr1xh.com2.z0.glb.qiniucdn.com/player_bg_3.png","http://7xr1xh.com2.z0.glb.qiniucdn.com/player_bg_4.png","http://7xr1xh.com2.z0.glb.qiniucdn.com/player_bg_5.png"]}}';
 
@@ -72,7 +76,7 @@ $category_content = [
 
 $content_url2 = [
 
-
+    'http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1615/version/4?sign=6ea5e373d90909667ca6c7b808a08142&t=5A041208'
 ];
 set_time_limit(0);
 updateList();
@@ -129,6 +133,7 @@ function updateList()
         $content = json_decode($content,true);
         if(isset($content['data']['book_id'])){
             $content = $content['data'];
+            print_r($content);exit;
             $result = $db->select("course_list", ['book_id' => $content['book_id']])->fetchAllArray();
             if($result[0]['sound_url'] && $result[0]['sound_url'] != ""){
                 continue;
@@ -208,7 +213,165 @@ function saveCategory($category){
     echo 'ok';
 }
 
+function test(Request $request,FileStorageInterface $fileStorage)
+{
+    /*$result = DB::table("question_v2")->where(['type' => 0])->orWhere(['type' => 1])->get()->toArray();
+    print_r($result);exit;*/
 
+    //exit;
+    //35239	2017-11-08 10:34:01
+    //35179	2017-11-08 10:34:36
+    //34885	2017-11-08 10:36:56
+    //33318	2017-11-08 10:51:25
+    //32810	2017-11-08 10:55:21
+    //31747	2017-11-08 11:04:04
+    //22917	2017-11-08 11:48:39
+    set_time_limit(-1);
+
+
+    if(isset($_GET['type']) && $_GET['type'] == 'video'){
+        if(isset($_GET['page'])){
+            $id = $_GET['page'];
+            $result = DB::table("course_list")->offset($id*100)->limit(100)->get()->toArray();
+        }else{
+            $result = DB::table("course_list")->where('sound_url', 'like', '%xqd2h.dl1.z0.glb.clouddn.com%')->get()->toArray();
+        }
+        array_walk($result,function($row)use($fileStorage){
+            $question_img = $row->sound_url;
+            if($row->id < 153 || strpos($question_img,'rtpush.oss-cn-shanghai.aliyuncs.com')>-1){
+                return;
+            }
+            if($question_img){
+
+                //$data = CurlTool::postRawJSON("http://main.dev.rtpush.com/api/v1/upload-url",['url' => $question_img,'ext'=>'mp3']);
+                $data = $this->uploadUrl($question_img,'mp3',$fileStorage);
+                if(isset($data['data']['image_src']) && $data['data']['image_src']){
+                    $question_img = $data['data']['image_src'];
+                    DB::table("course_list")->where(['id' => $row->id])->update(['sound_url' => $question_img]);
+                }
+            }
+            echo $row->id.'ok';
+        });
+        echo 'ok!';
+        exit;
+    }
+
+    if(isset($_GET['type']) && $_GET['type'] == 'update'){
+        $result = DB::table("course_list")->whereNull("sound_url")->get()->toArray();
+        array_walk($result,function($row){
+            $data = DB::table("course_list")->where(['book_id' => $row->book_id])->whereNotNull('sound_url')->first();
+            if(isset($data->id)){
+                DB::table("course_list")->where(['id' => $row->id])->update([
+                    'book_excerpt' => $data->book_excerpt,
+                    'book_author' => $data->book_author,
+                    'series_id' => $data->series_id,
+                    'sound_url' => $data->sound_url,
+                ]);
+            }
+        });
+        echo 'ok!';
+        exit;
+    }
+
+    if(isset($_GET['type']) && $_GET['type'] == 'add'){
+        $content_url = [
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/585/version/4?sign=17c492f9c9c69ef3cf30beb7bf8724c1&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/586/version/4?sign=f098ea1848e06722ab4986ebe62707dc&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/587/version/4?sign=1b52415adc396d42b2db010e568884e2&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/588/version/4?sign=5cfd97f1d9efd031e3b39ea923aa1f90&t=5A02C088"
+            /*"http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/37/version/4?sign=db5378f591a8ef0577d216b76ba73370&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/638/version/4?sign=b3c96fff9836704d5f2e00c5adaa0d2c&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1174/version/4?sign=ed7337fde0caa75828f118708c85d489&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1691/version/4?sign=4b4732a708e81c59bc772dc02599abcb&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1709/version/4?sign=ebee2c6c51afcf50a1161d456c7fe533&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1710/version/4?sign=e000050b65cabb4bc65d19c712deecfb&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1705/version/4?sign=935902d0cb16cdd86118446cc4b86a1b&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1766/version/4?sign=91fe4a5ed249e30d5aeedbf50e5c6384&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/1853/version/4?sign=2d43426ee4b669b5a466e2881448b250&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/2762/version/4?sign=0e9501f2b89a1278b4193e50aa909d2b&t=5A02C088",
+            "http://cdng.yhb360.com/bb_video30/Home/book/detail/age/0/app_sub_id/1/app_id/22/book_id/3102/version/4?sign=bacec3e7222a411e186a3f97bbf2bf48&t=5A02C088"*/
+        ];
+        foreach($content_url as $url){
+
+            $preg_url = '#/book_id/(.*)/#iU';
+            preg_match($preg_url, $url, $book_id);
+            $book_id = $book_id[1];
+            $content = file_get_contents($url);
+            $data = json_decode($content);
+            if(isset($data->data->book_id)){
+                $data = $data->data;
+                echo $data->sound_url;
+                $result = DB::table("course_list")->where(['book_id' => $book_id])->update([
+                    'sound_url' => $data->sound_url,
+                ]);
+                echo $result;exit;
+            }
+
+        }
+        echo 'ok!';exit;
+    }
+
+    /* if(isset($_GET['table']) && $_GET['table'] == 'course_list'){
+         $result = DB::table("course_list")->get()->toArray();
+         array_walk($result,function($row){
+             $question_img = $row->cover_url;
+             if(strpos($question_img,'rtpush.oss-cn-shanghai.aliyuncs.com')>-1){
+                 return;
+             }
+             if($question_img){
+                 $data = CurlTool::postRawJSON("http://main.dev.rtpush.com/api/v1/upload-url",['url' => $question_img]);
+                 if(isset($data['data']['image_src']) && $data['data']['image_src']){
+                     $question_img = $data['data']['image_src'];
+                 }
+             }
+             DB::table("course_list")->where(['id' => $row->id])->update(['cover_url' => $question_img]);
+             echo $row->id.'ok';
+         });
+         echo 'ok!';
+         exit;
+     }*/
+    if(isset($_GET['page'])){
+        $id = $_GET['page'];
+        $result = DB::table("course_page_list")->offset($id*1000)->limit(1000)->get()->toArray();
+    }else{
+        $result = DB::table("course_page_list")->get()->toArray();
+    }
+
+    array_walk($result,function($row)use($fileStorage){
+        $question_img = $row->page_url;
+        if(strpos($question_img,'rtpush.oss-cn-shanghai.aliyuncs.com')>-1){
+            return;
+        }
+        if($question_img){
+            //$data = CurlTool::postRawJSON("http://main.dev.rtpush.com/api/v1/upload-url",['url' => $question_img]);
+            $data = $this->uploadUrl($question_img,'png',$fileStorage);
+            if(isset($data['data']['image_src']) && $data['data']['image_src']){
+                $question_img = $data['data']['image_src'];
+                DB::table("course_page_list")->where(['id' => $row->id])->update(['page_url' => $question_img]);
+            }
+        }
+
+        /* $answer_list = $row->answer_list;
+         $answer_list = json_decode($answer_list,true);
+         array_walk($answer_list,function(&$sub_row){
+             if(strpos($sub_row['content'],'pico.file.putaocdn.com')>-1){
+                 $sub_row['content'] = strpos($sub_row['content'],'http:')>-1?$sub_row['content']:("http:".$sub_row['content']);
+                 $data = CurlTool::postRawJSON("http://main.dev.rtpush.com/api/v1/upload-url",['url' => $sub_row['content']]);
+                 if(isset($data['data']['image_src']) && $data['data']['image_src']){
+                     $sub_row['content'] = $data['data']['image_src'];
+                 }
+             }
+         });
+         $answer_list = json_encode($answer_list);
+
+         DB::table("question")->where(['id' => $row->id])->update(['question_img' => $question_img,'answer_list' => $answer_list]);
+
+         echo $row->id.'ok';*/
+
+        echo $row->id.'ok';
+    });
+    echo 'over';
+}
 $url = [
 
     "http://cdng.yhb360.com/bb_video30/Home/book/booklist/tag_id/19/book_type_id/17/app_sub_id/1/age/0/app_id/22/version/4?sign=681e1cdbcc57a9a53bed924acb6becbf&t=5A016F08",
