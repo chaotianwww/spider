@@ -1,34 +1,194 @@
-| wp_commentmeta                                  |
-| wp_comments                                     |
-| wp_links                                        |
-| wp_options                                      |
-| wp_postmeta                                     |
-| wp_posts                                        |
-| wp_pptrack_codes                                |
-| wp_revslider_css                                |
-| wp_revslider_layer_animations                   |
-| wp_revslider_navigations                        |
-| wp_revslider_sliders                            |
-| wp_revslider_slides                             |
-| wp_revslider_static_slides                      |
-| wp_term_relationships                           |
-| wp_term_taxonomy                                |
-| wp_termmeta                                     |
-| wp_terms                                        |
-| wp_usermeta                                     |
-| wp_users                                        |
-| wp_wc_groupbuy_log                              |
-| wp_woocommerce_api_keys                         |
-| wp_woocommerce_attribute_taxonomies             |
-| wp_woocommerce_downloadable_product_permissions |
-| wp_woocommerce_log                              |
-| wp_woocommerce_order_itemmeta                   |
-| wp_woocommerce_order_items                      |
-| wp_woocommerce_payment_tokenmeta                |
-| wp_woocommerce_payment_tokens                   |
-| wp_woocommerce_sessions                         |
-| wp_woocommerce_shipping_zone_locations          |
-| wp_woocommerce_shipping_zone_methods            |
-| wp_woocommerce_shipping_zones                   |
-| wp_woocommerce_tax_rate_locations               |
-| wp_woocommerce_tax_rates                        
+CREATE TABLE `account` (
+  `user_id` int(10) NOT NULL AUTO_INCREMENT,
+  `email` varchar(50) DEFAULT NULL,
+  `passwd` varchar(50) DEFAULT NULL,
+  `last_login_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `account_address` (
+  `addr_id` int(10) NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) NOT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `country` varchar(50) DEFAULT NULL,
+  `state` varchar(50) DEFAULT NULL,
+  `city` varchar(50) DEFAULT NULL,
+  `street` varchar(255) DEFAULT NULL,
+  `zip` varchar(10) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `is_default` tinyint(1) DEFAULT '0' COMMENT '是否默认 1、默认，0，非默认',
+  `is_del` tinyint(1) DEFAULT '0' COMMENT '是否被删除 1、被删除',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`addr_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `account_profile` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `fb_id` varchar(255) DEFAULT NULL,
+  `head_img` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `banner` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL DEFAULT '',
+  `banner_src` varchar(255) NOT NULL,
+  `banner_link` varchar(255) DEFAULT NULL,
+  `start_time` timestamp NULL DEFAULT NULL,
+  `stop_time` timestamp NULL DEFAULT NULL,
+  `sort` int(11) NOT NULL DEFAULT '0',
+  `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0：默认，1：启用',
+  `is_del` tinyint(1) DEFAULT '0' COMMENT '是否被删除 1、已删除',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `item` (
+  `item_id` int(10) NOT NULL AUTO_INCREMENT,
+  `category_id` int(10) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `quantity` tinyint(1) DEFAULT '0' COMMENT '只能买一件？ 0、是，1、否',
+  `original_price` int(10) NOT NULL DEFAULT '0' COMMENT '(分)',
+  `friendeal_price` int(10) NOT NULL DEFAULT '0',
+  `regular_price` int(10) NOT NULL DEFAULT '0',
+  `sort` int(10) NOT NULL DEFAULT '1' COMMENT '排序字段，数字越小，越靠前',
+  `status` tinyint(1) DEFAULT '1' COMMENT '商品状态：0、正常，1、下架，2、删除',
+  `putaway_at` timestamp NULL DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`item_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `item_backdrop` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `item_id` int(10) NOT NULL,
+  `title` varchar(255) DEFAULT NULL COMMENT '商品标题',
+  `contend` varchar(255) DEFAULT NULL COMMENT '竞品',
+  `contend_price` int(10) DEFAULT '0' COMMENT '竞品定价',
+  `contend_link` varchar(255) DEFAULT NULL COMMENT '竞品链接',
+  `provider` varchar(255) DEFAULT NULL COMMENT '供货商',
+  `provider_link` varchar(255) DEFAULT NULL COMMENT '供货商链接',
+  `purchasing_price_dollar` int(10) DEFAULT '0' COMMENT '进价（美元）',
+  `purchasing_price_cny` int(10) DEFAULT '0' COMMENT '进价（人民币）',
+  `weight` varchar(20) DEFAULT '0' COMMENT '重量',
+  `logistics` varchar(50) DEFAULT NULL COMMENT '物流',
+  `friendeal_price` int(10) DEFAULT '0' COMMENT '拼单价',
+  `regular_price` int(10) DEFAULT '0' COMMENT '直购价',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `item_desc` (
+  `desc_id` int(10) NOT NULL AUTO_INCREMENT,
+  `item_id` int(10) NOT NULL,
+  `column` varchar(50) NOT NULL,
+  `value` varchar(255) NOT NULL,
+  `is_del` tinyint(1) DEFAULT '0' COMMENT '是否删除 1、已删除',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`desc_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `item_img` (
+  `img_id` int(10) NOT NULL AUTO_INCREMENT,
+  `item_id` int(10) NOT NULL,
+  `img_src` varchar(255) NOT NULL,
+  `is_main` tinyint(1) DEFAULT '0' COMMENT '主图 1',
+  `is_del` tinyint(1) DEFAULT '0' COMMENT '是否删除 1、已删除',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`img_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `item_sku` (
+  `item_sku_id` int(10) NOT NULL AUTO_INCREMENT,
+  `item_id` int(10) NOT NULL,
+  `sku_ids` varchar(20) DEFAULT NULL,
+  `img_src` varchar(255) DEFAULT NULL,
+  `is_del` tinyint(1) DEFAULT '0' COMMENT '是否删除 1、删除',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`item_sku_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `order` (
+  `order_id` int(10) NOT NULL AUTO_INCREMENT,
+  `order_num` varchar(50) NOT NULL,
+  `user_id` int(10) NOT NULL,
+  `item_id` int(10) NOT NULL,
+  `item_sku_id` int(10) NOT NULL,
+  `addr_id` int(10) DEFAULT NULL,
+  `price_type` tinyint(1) DEFAULT '1' COMMENT '1、拼单，2、直购，3、原价',
+  `pay_style` tinyint(1) DEFAULT '1' COMMENT '1、pappal',
+  `active_id` int(10) DEFAULT '0',
+  `status` tinyint(1) DEFAULT '0' COMMENT '（订单状态，0、待支付，1、已支付，2、待收货，3、已退款，4、已过期，5、已关闭，6、已收货，7、已成团）',
+  `quantity` int(10) DEFAULT '1',
+  `subtotal_fee` int(10) DEFAULT '0',
+  `shipping_fee` int(10) DEFAULT '0',
+  `total_fee` int(10) DEFAULT '0',
+  `group_id` int(10) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`order_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `order_group` (
+  `group_id` int(10) NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) NOT NULL,
+  `member_user_ids` varchar(255) DEFAULT NULL,
+  `refer_num` varchar(50) NOT NULL,
+  `member_count` int(10) NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT '团队状态 0、待成团，1、已成团，2、成团失败',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`group_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `order_refund` (
+  `refund_id` int(10) NOT NULL AUTO_INCREMENT,
+  `order_id` int(10) NOT NULL,
+  `user_id` int(10) NOT NULL,
+  `item_id` int(10) NOT NULL,
+  `total_fee` int(10) NOT NULL DEFAULT '0',
+  `group_id` int(10) NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '退款状态 1、未退款，2、已退款',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`refund_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+CREATE TABLE `pay_log` (
+  `pay_id` int(10) NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) NOT NULL,
+  `order_id` int(10) NOT NULL,
+  `sale_id` varchar(50) NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
+  `payer_id` varchar(255) DEFAULT NULL,
+  `phone` varchar(255) DEFAULT NULL,
+  `country_code` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`pay_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `sku` (
+  `sku_id` int(10) NOT NULL AUTO_INCREMENT,
+  `column` varchar(50) NOT NULL,
+  `value` varchar(50) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`sku_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
