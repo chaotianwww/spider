@@ -105,7 +105,7 @@
 		file_put_contents("log", $txt , FILE_APPEND);
 	}
 
-	/*get_url();
-	run();*/
+	get_url();
+	run();
 	write_log();
 	echo 'ok';
