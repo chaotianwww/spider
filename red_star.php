@@ -101,10 +101,8 @@
 	}
 	function write_log()
 	{
-		$myfile = fopen("log", "w")  or die("Unable to open file!");
 		$txt = date("Y-m-d H:i:s")."　run is ok\n";
-		fwrite($myfile, $txt);
-		fclose($myfile);
+		file_put_contents("log", $txt , FILE_APPEND);
 	}
 
 	/*get_url();
