@@ -8,7 +8,7 @@ foreach($url as $key=>$u){
     $urls[$u[0]] = $u[1];
 }
 print_r($urls);*/
-
+header("Location:http://me.uncle-cyan.cn/me");
 $url = 'billing_first_name=123123&billing_last_name=213123&billing_company=123&billing_country=US&billing_address_1=abcdewgew&billing_address_2=adcsdfdsfsd&billing_city=11&billing_state=AK&billing_postcode=32423-4234&billing_phone=323213123&billing_email=uncle.cyan@gmail.com&shipping_first_name=123123&shipping_last_name=213123&shipping_company=123&shipping_country=US&shipping_address_1=abcdewgew&shipping_address_2=adcsdfdsfsd&shipping_city=11&shipping_state=AK&shipping_postcode=32423-4234&order_comments=&shipping_method[0]=flat_rate:1&terms-field=1&_wpnonce=26c4b77154&_wp_http_referer=/checkout/';
 print_r(explode("&",$url));exit;
 
